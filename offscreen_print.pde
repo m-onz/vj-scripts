@@ -19,6 +19,9 @@ void setup () {
      big.line(i*10, 0, height, i*10); 
   }
   big.endDraw();
+  // change the file extension here...
+  // .tif
+  // .jpg
   big.save("big.png");
 
 }
