@@ -1,10 +1,12 @@
 /*
+
 export your sketch as a video
-change your file extension if you prefer a .mov for example
+
 depends on the video export library
 import Video Export library by Abe Pazos
 sketch -> import library -> search video export
 press Q to stop recording and end the sketch
+
 */
 import com.hamoid.*;
 VideoExport videoExport;
