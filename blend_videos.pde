@@ -1,5 +1,5 @@
 /*
-    blend videos    
+    blend videos (expects 640 x 480 resolution)
 
     blends 3 videos together and records the output as a new video.
  
@@ -51,7 +51,7 @@ void setup(){
 
 void draw(){
   background(0);
-  image(playlist[0],0,0,640, 480);
+  image(playlist[0], 0, 0, 640, 480);
   blend(playlist[1], 0, 0, 640, 480, 0, 0, 640, 480, LIGHTEST);
   blend(playlist[2], 0, 0, 640, 480, 0, 0, 640, 480, LIGHTEST);
   //filter(POSTERIZE, 11);
