@@ -5,6 +5,8 @@ export your sketch as a video
 depends on the video export library
 import Video Export library by Abe Pazos
 sketch -> import library -> search video export
+
+video starts recording straight away
 press Q to stop recording and end the sketch
 
 */
