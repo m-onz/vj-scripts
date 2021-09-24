@@ -2,6 +2,10 @@
 
 helpful scripts for generating visuals and VJing mainly with [Processing](https://processing.org/).
 
+## themes
+
+* [dark theme: processing 4](/theme.txt)
+
 ## scripts
 
 * [record a movie](/record_movie.pde) - records the sketch output to a video file
